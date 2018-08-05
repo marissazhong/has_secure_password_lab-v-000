@@ -10,7 +10,6 @@ class UsersController < ApplicationController
     else
       return redirect_to controller: 'users', action: 'new'
     end
-
   end
 
   private
